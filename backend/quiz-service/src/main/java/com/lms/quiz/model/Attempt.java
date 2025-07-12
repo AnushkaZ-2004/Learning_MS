@@ -9,7 +9,6 @@ public class Attempt {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private Long studentId;
     private Long quizId;
     private int totalQuestions;
